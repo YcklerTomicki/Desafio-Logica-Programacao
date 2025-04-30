@@ -1,3 +1,5 @@
+package desafio01;
+
 import java.util.Scanner;
 
 /*
@@ -29,7 +31,7 @@ Se XP for maior ou igual a 10.001 = Radiante
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
  */
-public class Main {
+public class HeroiCriar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String nome, nivel;
